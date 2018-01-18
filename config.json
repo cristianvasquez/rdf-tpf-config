@@ -1,0 +1,2006 @@
+{
+  "title": "My Linked Data Fragments server",
+  "datasources": [
+    {
+      "title": "A Short Biographical Dictionary of English Literature (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "A Short Biographical Dictionary of English Literature (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://biolit.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/biolit"
+      }
+    },
+    {
+      "title": "AEMET metereological dataset",
+      "type": "SparqlDatasource",
+      "description": "AEMET metereological dataset",
+      "settings": {
+        "endpoint": "http://aemet.linkeddata.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/aemet"
+      }
+    },
+    {
+      "title": "AGROVOC",
+      "type": "SparqlDatasource",
+      "description": "AGROVOC",
+      "settings": {
+        "endpoint": "http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc",
+        "defaultGraph": "https://aims-fao.atlassian.net/wiki/display/AGV/Releases"
+      }
+    },
+    {
+      "title": "ASN:US",
+      "type": "SparqlDatasource",
+      "description": "ASN:US",
+      "settings": {
+        "endpoint": "http://sparql.jesandco.org:8890/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/asn-us"
+      }
+    },
+    {
+      "title": "Allie Abbreviation And Long Form Database in Life Science",
+      "type": "SparqlDatasource",
+      "description": "Allie Abbreviation And Long Form Database in Life Science",
+      "settings": {
+        "endpoint": "http://data.allie.dbcls.jp/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/allie-abbreviation-and-long-form-database-in-life-science"
+      }
+    },
+    {
+      "title": "Alpine Ski Racers of Austria",
+      "type": "SparqlDatasource",
+      "description": "Alpine Ski Racers of Austria",
+      "settings": {
+        "endpoint": "http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam",
+        "defaultGraph": "http://thedatahub.org/dataset/austrian_ski_racers"
+      }
+    },
+    {
+      "title": "AragoDBPedia",
+      "type": "SparqlDatasource",
+      "description": "AragoDBPedia",
+      "settings": {
+        "endpoint": "http://opendata.aragon.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/aragodbpedia"
+      }
+    },
+    {
+      "title": "Archives Hub Linked Data",
+      "type": "SparqlDatasource",
+      "description": "Archives Hub Linked Data",
+      "settings": {
+        "endpoint": "http://data.archiveshub.ac.uk/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/archiveshub-linkeddata"
+      }
+    },
+    {
+      "title": "Association for Computing Machinery (ACM) (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Association for Computing Machinery (ACM) (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://acm.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-acm"
+      }
+    },
+    {
+      "title": "Australian Climate Observations Reference Network - Surface Air Temperature Dataset",
+      "type": "SparqlDatasource",
+      "description": "Australian Climate Observations Reference Network - Surface Air Temperature Dataset",
+      "settings": {
+        "endpoint": "http://lab.environment.data.gov.au/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/acorn-sat"
+      }
+    },
+    {
+      "title": "B3Kat - Library Union Catalogues of Bavaria, Berlin and Brandenburg",
+      "type": "SparqlDatasource",
+      "description": "B3Kat - Library Union Catalogues of Bavaria, Berlin and Brandenburg",
+      "settings": {
+        "endpoint": "http://lod.b3kat.de/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/b3kat"
+      }
+    },
+    {
+      "title": "BPR - Bibliography of the Italian Parliament and electoral studies ",
+      "type": "SparqlDatasource",
+      "description": "BPR - Bibliography of the Italian Parliament and electoral studies ",
+      "settings": {
+        "endpoint": "http://dati.camera.it/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/bpr"
+      }
+    },
+    {
+      "title": "Italian Chamber of Deputies - official dataset",
+      "type": "SparqlDatasource",
+      "description": "Italian Chamber of Deputies - official dataset",
+      "settings": {
+        "endpoint": "http://dati.camera.it/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/ocd"
+      }
+    },
+    {
+      "title": "BabelNet",
+      "type": "SparqlDatasource",
+      "description": "BabelNet",
+      "settings": {
+        "endpoint": "http://babelnet.org/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/babelnet"
+      }
+    },
+    {
+      "title": "BioModels RDF",
+      "type": "SparqlDatasource",
+      "description": "BioModels RDF",
+      "settings": {
+        "endpoint": "https://www.ebi.ac.uk/rdf/services/biomodels/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/biomodels-rdf"
+      }
+    },
+    {
+      "title": "British National Bibliography (BNB) - Linked Open Data",
+      "type": "SparqlDatasource",
+      "description": "British National Bibliography (BNB) - Linked Open Data",
+      "settings": {
+        "endpoint": "http://bnb.data.bl.uk/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/bluk-bnb"
+      }
+    },
+    {
+      "title": "JISC Open Bibliography British National Bibliography dataset",
+      "type": "SparqlDatasource",
+      "description": "JISC Open Bibliography British National Bibliography dataset",
+      "settings": {
+        "endpoint": "http://bnb.data.bl.uk/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/jiscopenbib-bl_bnb-1"
+      }
+    },
+    {
+      "title": "Budapest University of Technology and Economics (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Budapest University of Technology and Economics (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://budapest.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-budapest"
+      }
+    },
+    {
+      "title": "BundestagNebeneinkuenfte",
+      "type": "SparqlDatasource",
+      "description": "BundestagNebeneinkuenfte",
+      "settings": {
+        "endpoint": "http://opendata-bundestag.de/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/bundestagnebeneinkuenfte"
+      }
+    },
+    {
+      "title": "COLINDA - Conference Linked Data",
+      "type": "SparqlDatasource",
+      "description": "COLINDA - Conference Linked Data",
+      "settings": {
+        "endpoint": "http://data.colinda.org/endpoint.php",
+        "defaultGraph": "http://thedatahub.org/dataset/colinda"
+      }
+    },
+    {
+      "title": "CRTM",
+      "type": "SparqlDatasource",
+      "description": "CRTM",
+      "settings": {
+        "endpoint": "http://crtm.linkeddata.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/crtm"
+      }
+    },
+    {
+      "title": "ChEMBL RDF",
+      "type": "SparqlDatasource",
+      "description": "ChEMBL RDF",
+      "settings": {
+        "endpoint": "https://www.ebi.ac.uk/rdf/services/chembl/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/chembl-rdf"
+      }
+    },
+    {
+      "title": "CiteSeer (Research Index) (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "CiteSeer (Research Index) (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://citeseer.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-citeseer"
+      }
+    },
+    {
+      "title": "Community R&D Information Service (CORDIS) (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Community R&D Information Service (CORDIS) (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://cordis.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-cordis"
+      }
+    },
+    {
+      "title": "Courts thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Courts thesaurus",
+      "settings": {
+        "endpoint": "http://vocabulary.wolterskluwer.de/PoolParty/sparql/court",
+        "defaultGraph": "http://thedatahub.org/dataset/courts-thesaurus"
+      }
+    },
+    {
+      "title": "CulturaLinkedData",
+      "type": "SparqlDatasource",
+      "description": "CulturaLinkedData",
+      "settings": {
+        "endpoint": "http://cultura.linkeddata.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/culturalinkeddata"
+      }
+    },
+    {
+      "title": "DBLP Computer Science Bibliography (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "DBLP Computer Science Bibliography (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://dblp.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-dblp"
+      }
+    },
+    {
+      "title": "DBTune.org Jamendo RDF Server",
+      "type": "SparqlDatasource",
+      "description": "DBTune.org Jamendo RDF Server",
+      "settings": {
+        "endpoint": "http://dbtune.org/jamendo/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/jamendo-dbtune"
+      }
+    },
+    {
+      "title": "DBTune.org John Peel sessions RDF server",
+      "type": "SparqlDatasource",
+      "description": "DBTune.org John Peel sessions RDF server",
+      "settings": {
+        "endpoint": "http://dbtune.org/bbc/peel/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/dbtune-john-peel-sessions"
+      }
+    },
+    {
+      "title": "DBTune.org Magnatune RDF server",
+      "type": "SparqlDatasource",
+      "description": "DBTune.org Magnatune RDF server",
+      "settings": {
+        "endpoint": "http://dbtune.org/magnatune/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/dbtune-magnatune"
+      }
+    },
+    {
+      "title": "DBpedia",
+      "type": "SparqlDatasource",
+      "description": "DBpedia",
+      "settings": {
+        "endpoint": "http://dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia"
+      }
+    },
+    {
+      "title": "DBpedia Commons",
+      "type": "SparqlDatasource",
+      "description": "DBpedia Commons",
+      "settings": {
+        "endpoint": "http://commons.dbpedia.org/sparql",
+        "defaultGraph": "http://commons.dbpedia.org/sparql"
+      }
+    },
+    {
+      "title": "DBpedia Wikidata",
+      "type": "SparqlDatasource",
+      "description": "DBpedia Wikidata",
+      "settings": {
+        "endpoint": "http://wikidata.dbpedia.org/sparql",
+        "defaultGraph": "http://wikidata.dbpedia.org/sparql"
+      }
+    },
+    {
+      "title": "DBpedia in Basque",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in Basque",
+      "settings": {
+        "endpoint": "http://eu.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-eu"
+      }
+    },
+    {
+      "title": "DBpedia in Dutch",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in Dutch",
+      "settings": {
+        "endpoint": "http://nl.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-nl"
+      }
+    },
+    {
+      "title": "DBpedia in French",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in French",
+      "settings": {
+        "endpoint": "http://fr.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-fr"
+      }
+    },
+    {
+      "title": "DBpedia in German",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in German",
+      "settings": {
+        "endpoint": "http://de.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-de"
+      }
+    },
+    {
+      "title": "DBpedia in Greek",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in Greek",
+      "settings": {
+        "endpoint": "http://el.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-el"
+      }
+    },
+    {
+      "title": "DBpedia in Japanese",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in Japanese",
+      "settings": {
+        "endpoint": "http://ja.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-ja"
+      }
+    },
+    {
+      "title": "DBpedia in Portuguese",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in Portuguese",
+      "settings": {
+        "endpoint": "http://pt.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-pt"
+      }
+    },
+    {
+      "title": "DBpedia in Spanish",
+      "type": "SparqlDatasource",
+      "description": "DBpedia in Spanish",
+      "settings": {
+        "endpoint": "http://es.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-es"
+      }
+    },
+    {
+      "title": "DBpedia-Live",
+      "type": "SparqlDatasource",
+      "description": "DBpedia-Live",
+      "settings": {
+        "endpoint": "http://live.dbpedia.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbpedia-live"
+      }
+    },
+    {
+      "title": "DEPLOY (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "DEPLOY (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://deploy.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-deploy"
+      }
+    },
+    {
+      "title": "Dataset catalogue (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "Dataset catalogue (University of Oxford)",
+      "settings": {
+        "endpoint": "http://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/ox-ac-uk-catalogue"
+      }
+    },
+    {
+      "title": "OpenMeters (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "OpenMeters (University of Oxford)",
+      "settings": {
+        "endpoint": "http://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/ox-ac-uk-openmeters"
+      }
+    },
+    {
+      "title": "Time-series metadata (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "Time-series metadata (University of Oxford)",
+      "settings": {
+        "endpoint": "http://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/ox-ac-uk-timeseries"
+      }
+    },
+    {
+      "title": "Vacancies (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "Vacancies (University of Oxford)",
+      "settings": {
+        "endpoint": "http://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/ox-ac-uk-vacancies"
+      }
+    },
+    {
+      "title": "Events calendar for the University (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "Events calendar for the University (University of Oxford)",
+      "settings": {
+        "endpoint": "http://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/ox-ac-uk-www-ox-ac-uk-events"
+      }
+    },
+    {
+      "title": "Dataset catalogue (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "Dataset catalogue (University of Oxford)",
+      "settings": {
+        "endpoint": "http://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/ox-ac-uk-catalogue-metadata"
+      }
+    },
+    {
+      "title": "Datos.bcn.cl",
+      "type": "SparqlDatasource",
+      "description": "Datos.bcn.cl",
+      "settings": {
+        "endpoint": "http://datos.bcn.cl/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/datos-bcn-cl"
+      }
+    },
+    {
+      "title": "Deep Blue (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Deep Blue (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://deepblue.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-deepblue"
+      }
+    },
+    {
+      "title": "DisGeNET",
+      "type": "SparqlDatasource",
+      "description": "DisGeNET",
+      "settings": {
+        "endpoint": "http://rdf.disgenet.org/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/disgenet"
+      }
+    },
+    {
+      "title": "Diverse Italian ReSIST Partner Institutions (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Diverse Italian ReSIST Partner Institutions (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://italy.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-italy"
+      }
+    },
+    {
+      "title": "Dutch Ships and Sailors ",
+      "type": "SparqlDatasource",
+      "description": "Dutch Ships and Sailors ",
+      "settings": {
+        "endpoint": "http://dutchshipsandsailors.nl/data/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/dutch-ships-and-sailors"
+      }
+    },
+    {
+      "title": "Dutch Ships and Sailors ",
+      "type": "SparqlDatasource",
+      "description": "Dutch Ships and Sailors ",
+      "settings": {
+        "endpoint": "http://semanticweb.cs.vu.nl/dss/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/dutch-ships-and-sailors"
+      }
+    },
+    {
+      "title": "EEA Vocabularies",
+      "type": "SparqlDatasource",
+      "description": "EEA Vocabularies",
+      "settings": {
+        "endpoint": "http://cr.eionet.europa.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eea-vocabularies"
+      }
+    },
+    {
+      "title": "EEA Reporting Obligations Database",
+      "type": "SparqlDatasource",
+      "description": "EEA Reporting Obligations Database",
+      "settings": {
+        "endpoint": "http://cr.eionet.europa.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eea-rod"
+      }
+    },
+    {
+      "title": "European Pollutant Release and Transfer Register (E-PRTR)",
+      "type": "SparqlDatasource",
+      "description": "European Pollutant Release and Transfer Register (E-PRTR)",
+      "settings": {
+        "endpoint": "http://cr.eionet.europa.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eprtr"
+      }
+    },
+    {
+      "title": "ELTE Digital Institutional Repository (EDIT)",
+      "type": "SparqlDatasource",
+      "description": "ELTE Digital Institutional Repository (EDIT)",
+      "settings": {
+        "endpoint": "http://edit.elte.hu/sparql",
+        "defaultGraph": "https://edit.elte.hu"
+      }
+    },
+    {
+      "title": "ERA - Australian Research Council publication ratings (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "ERA - Australian Research Council publication ratings (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://era.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-era"
+      }
+    },
+    {
+      "title": "El Viajero's tourism dataset",
+      "type": "SparqlDatasource",
+      "description": "El Viajero's tourism dataset",
+      "settings": {
+        "endpoint": "http://webenemasuno.linkeddata.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/elviajero"
+      }
+    },
+    {
+      "title": "Enipedia - Energy Industry Data",
+      "type": "SparqlDatasource",
+      "description": "Enipedia - Energy Industry Data",
+      "settings": {
+        "endpoint": "http://enipedia.tudelft.nl/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/enipedia"
+      }
+    },
+    {
+      "title": "Environment Agency Bathing Water Quality",
+      "type": "SparqlDatasource",
+      "description": "Environment Agency Bathing Water Quality",
+      "settings": {
+        "endpoint": "http://environment.data.gov.uk/sparql/bwq/query",
+        "defaultGraph": "http://thedatahub.org/dataset/environment-agency-bathing-water-quality"
+      }
+    },
+    {
+      "title": "European Environment Agency Published Products",
+      "type": "SparqlDatasource",
+      "description": "European Environment Agency Published Products",
+      "settings": {
+        "endpoint": "http://semantic.eea.europa.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eea"
+      }
+    },
+    {
+      "title": "European Nature Information System",
+      "type": "SparqlDatasource",
+      "description": "European Nature Information System",
+      "settings": {
+        "endpoint": "http://semantic.eea.europa.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eunis"
+      }
+    },
+    {
+      "title": "European Television Heritage",
+      "type": "SparqlDatasource",
+      "description": "European Television Heritage",
+      "settings": {
+        "endpoint": "http://lod.euscreen.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/euscreen"
+      }
+    },
+    {
+      "title": "FOODpedia - Linked Data Dataset about Food Products and Ingredients",
+      "type": "SparqlDatasource",
+      "description": "FOODpedia - Linked Data Dataset about Food Products and Ingredients",
+      "settings": {
+        "endpoint": "http://foodpedia.tk/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/foodpedia"
+      }
+    },
+    {
+      "title": "FarolApp Streetlight Dataset",
+      "type": "SparqlDatasource",
+      "description": "FarolApp Streetlight Dataset",
+      "settings": {
+        "endpoint": "http://farolas.linkeddata.es/sparql",
+        "defaultGraph": "https://datahub.io/dataset/110da174-8b1e-4cf6-ac0d-d1c92efa557d/resource/5e0ac6ec-1b99-4524-9e3b-eeea5f48a1fd/download/boise.ttl"
+      }
+    },
+    {
+      "title": "France Telecom Recherche et Développement (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "France Telecom Recherche et Développement (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://ft.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-ft"
+      }
+    },
+    {
+      "title": "Fundação da Faculdade de Ciencas da Universidade de Lisboa (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Fundação da Faculdade de Ciencas da Universidade de Lisboa (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://lisbon.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-lisbon"
+      }
+    },
+    {
+      "title": "Gene Expression Atlas RDF",
+      "type": "SparqlDatasource",
+      "description": "Gene Expression Atlas RDF",
+      "settings": {
+        "endpoint": "http://www.ebi.ac.uk/rdf/services/atlas/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/gene-expression-atlas-rdf"
+      }
+    },
+    {
+      "title": "GeoLinkedData",
+      "type": "SparqlDatasource",
+      "description": "GeoLinkedData",
+      "settings": {
+        "endpoint": "http://geo.linkeddata.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/geolinkeddata"
+      }
+    },
+    {
+      "title": "Geological Survey of Austria (GBA) - Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Geological Survey of Austria (GBA) - Thesaurus",
+      "settings": {
+        "endpoint": "http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale",
+        "defaultGraph": "http://thedatahub.org/dataset/geological-survey-of-austria-thesaurus"
+      }
+    },
+    {
+      "title": "Geological Survey of Austria (GBA) - Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Geological Survey of Austria (GBA) - Thesaurus",
+      "settings": {
+        "endpoint": "http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit",
+        "defaultGraph": "http://thedatahub.org/dataset/geological-survey-of-austria-thesaurus"
+      }
+    },
+    {
+      "title": "Geological Survey of Austria (GBA) - Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Geological Survey of Austria (GBA) - Thesaurus",
+      "settings": {
+        "endpoint": "http://resource.geolba.ac.at/PoolParty/sparql/lithology",
+        "defaultGraph": "http://thedatahub.org/dataset/geological-survey-of-austria-thesaurus"
+      }
+    },
+    {
+      "title": "German labor law thesaurus",
+      "type": "SparqlDatasource",
+      "description": "German labor law thesaurus",
+      "settings": {
+        "endpoint": "http://vocabulary.wolterskluwer.de/PoolParty/sparql/arbeitsrecht",
+        "defaultGraph": "http://thedatahub.org/dataset/german-labor-law-thesaurus"
+      }
+    },
+    {
+      "title": "GovAgriBus Denmark",
+      "type": "SparqlDatasource",
+      "description": "GovAgriBus Denmark",
+      "settings": {
+        "endpoint": "http://extbi.lab.aau.dk/sparql/",
+        "defaultGraph": "http://lod.cs.aau.dk/downloads/JIST14/GovAgriBus/agriculture.rdf"
+      }
+    },
+    {
+      "title": "Greek Wordnet",
+      "type": "SparqlDatasource",
+      "description": "Greek Wordnet",
+      "settings": {
+        "endpoint": "http://wordnet.okfn.gr:8890/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/greek-wordnet"
+      }
+    },
+    {
+      "title": "Hellenic Police",
+      "type": "SparqlDatasource",
+      "description": "Hellenic Police",
+      "settings": {
+        "endpoint": "http://greek-lod.auth.gr/police/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/hellenic-police"
+      }
+    },
+    {
+      "title": "Hungarian National Library (NSZL) catalog",
+      "type": "SparqlDatasource",
+      "description": "Hungarian National Library (NSZL) catalog",
+      "settings": {
+        "endpoint": "http://setaria.oszk.hu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/hungarian-national-library-catalog"
+      }
+    },
+    {
+      "title": "IBM Research GmbH (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "IBM Research GmbH (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://ibm.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-ibm"
+      }
+    },
+    {
+      "title": "ICANE",
+      "type": "SparqlDatasource",
+      "description": "ICANE",
+      "settings": {
+        "endpoint": "http://www.icane.es/opendata/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/icane"
+      }
+    },
+    {
+      "title": "IEEE Papers (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "IEEE Papers (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://ieee.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-ieee"
+      }
+    },
+    {
+      "title": "IEEE VIS Source Data",
+      "type": "SparqlDatasource",
+      "description": "IEEE VIS Source Data",
+      "settings": {
+        "endpoint": "http://ieeevis.tw.rpi.edu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/twc-ieeevis"
+      }
+    },
+    {
+      "title": "ISPRA - The Italian Data Buoy Network (RON)",
+      "type": "SparqlDatasource",
+      "description": "ISPRA - The Italian Data Buoy Network (RON)",
+      "settings": {
+        "endpoint": "http://dati.isprambiente.it/sparql",
+        "defaultGraph": "http://dati.isprambiente.it/sparql"
+      }
+    },
+    {
+      "title": "ISPRA - Soil Consumption Indicators in Italy",
+      "type": "SparqlDatasource",
+      "description": "ISPRA - Soil Consumption Indicators in Italy",
+      "settings": {
+        "endpoint": "http://dati.isprambiente.it/sparql",
+        "defaultGraph": "http://dati.isprambiente.it/sparql"
+      }
+    },
+    {
+      "title": "ISPRA - Mitigation measures in Italy for national soil protection",
+      "type": "SparqlDatasource",
+      "description": "ISPRA - Mitigation measures in Italy for national soil protection",
+      "settings": {
+        "endpoint": "http://dati.isprambiente.it/sparql",
+        "defaultGraph": "http://dati.isprambiente.it/downloads/dissesto.nt.gz"
+      }
+    },
+    {
+      "title": "ISPRA - The administrative divisions of Italy (regions/provinces/municipalities)",
+      "type": "SparqlDatasource",
+      "description": "ISPRA - The administrative divisions of Italy (regions/provinces/municipalities)",
+      "settings": {
+        "endpoint": "http://dati.isprambiente.it/sparql",
+        "defaultGraph": "http://dati.isprambiente.it/sparql"
+      }
+    },
+    {
+      "title": "ISPRA - The Italian National Tide Gauge Network (RMN)",
+      "type": "SparqlDatasource",
+      "description": "ISPRA - The Italian National Tide Gauge Network (RMN)",
+      "settings": {
+        "endpoint": "http://dati.isprambiente.it/sparql",
+        "defaultGraph": "http://dati.isprambiente.it/sparql"
+      }
+    },
+    {
+      "title": "Imagesnippets Image Descriptions",
+      "type": "SparqlDatasource",
+      "description": "Imagesnippets Image Descriptions",
+      "settings": {
+        "endpoint": "http://www.imagesnippets.com/sparql/images",
+        "defaultGraph": "http://thedatahub.org/dataset/imagesnippets"
+      }
+    },
+    {
+      "title": "Influence Tracker Dataset",
+      "type": "SparqlDatasource",
+      "description": "Influence Tracker Dataset",
+      "settings": {
+        "endpoint": "http://www.influencetracker.com:8890/sparql",
+        "defaultGraph": "https://www.dropbox.com/s/yidar854g4xluoy/IT%20graphs%202016-02-08.rar?dl=0"
+      }
+    },
+    {
+      "title": "Institut Eurécom (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Institut Eurécom (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://eurecom.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-eurecom"
+      }
+    },
+    {
+      "title": "Isidore",
+      "type": "SparqlDatasource",
+      "description": "Isidore",
+      "settings": {
+        "endpoint": "http://www.rechercheisidore.fr/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/isidore"
+      }
+    },
+    {
+      "title": "Korean Institute of Science Technology and Information (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Korean Institute of Science Technology and Information (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://kisti.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-kisti"
+      }
+    },
+    {
+      "title": "LAAS-CNRS (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "LAAS-CNRS (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://laas.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-laas"
+      }
+    },
+    {
+      "title": "LDQM - Accessibility of DBpedia resources",
+      "type": "SparqlDatasource",
+      "description": "LDQM - Accessibility of DBpedia resources",
+      "settings": {
+        "endpoint": "http://linkeddata.es/resource/ldqm/sparql",
+        "defaultGraph": "http://linkeddata.es/resource/ldqm/sparql"
+      }
+    },
+    {
+      "title": "LODStats",
+      "type": "SparqlDatasource",
+      "description": "LODStats",
+      "settings": {
+        "endpoint": "http://lodstats.aksw.org/sparql",
+        "defaultGraph": "http://lodstats.aksw.org/datasets/void.ttl"
+      }
+    },
+    {
+      "title": "LinkLion - A Link Repository for the Web of Data",
+      "type": "SparqlDatasource",
+      "description": "LinkLion - A Link Repository for the Web of Data",
+      "settings": {
+        "endpoint": "http://www.linklion.org:8890/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/linklion"
+      }
+    },
+    {
+      "title": "Linked Clean Energy Data (reegle.info)",
+      "type": "SparqlDatasource",
+      "description": "Linked Clean Energy Data (reegle.info)",
+      "settings": {
+        "endpoint": "http://sparql.reegle.info/",
+        "defaultGraph": "http://thedatahub.org/dataset/clean-energy-data-reegle"
+      }
+    },
+    {
+      "title": "Linked Crowdsourced Data",
+      "type": "SparqlDatasource",
+      "description": "Linked Crowdsourced Data",
+      "settings": {
+        "endpoint": "http://sparql.contextdatacloud.org",
+        "defaultGraph": "http://thedatahub.org/dataset/linkedcrowdsourceddata"
+      }
+    },
+    {
+      "title": "Linked Life Data",
+      "type": "SparqlDatasource",
+      "description": "Linked Life Data",
+      "settings": {
+        "endpoint": "http://linkedlifedata.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/linked-life-data"
+      }
+    },
+    {
+      "title": "Linked Logainm",
+      "type": "SparqlDatasource",
+      "description": "Linked Logainm",
+      "settings": {
+        "endpoint": "http://data.logainm.ie/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/linked-logainm"
+      }
+    },
+    {
+      "title": "Linked Movie DataBase",
+      "type": "SparqlDatasource",
+      "description": "Linked Movie DataBase",
+      "settings": {
+        "endpoint": "http://data.linkedmdb.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/linkedmdb"
+      }
+    },
+    {
+      "title": "Linked Open Aalto Data Service",
+      "type": "SparqlDatasource",
+      "description": "Linked Open Aalto Data Service",
+      "settings": {
+        "endpoint": "http://data.aalto.fi/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/linked-open-aalto-data-service"
+      }
+    },
+    {
+      "title": "LinkedGeoData",
+      "type": "SparqlDatasource",
+      "description": "LinkedGeoData",
+      "settings": {
+        "endpoint": "http://linkedgeodata.org/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/linkedgeodata"
+      }
+    },
+    {
+      "title": "LinkedSpending: OpenSpending becomes Linked Open Data",
+      "type": "SparqlDatasource",
+      "description": "LinkedSpending: OpenSpending becomes Linked Open Data",
+      "settings": {
+        "endpoint": "http://linkedspending.aksw.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/linkedspending"
+      }
+    },
+    {
+      "title": "Lista de  Encabezamientos de Materia as Linked Open Data",
+      "type": "SparqlDatasource",
+      "description": "Lista de  Encabezamientos de Materia as Linked Open Data",
+      "settings": {
+        "endpoint": "http://id.sgcb.mcu.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/lista-encabezamientos-materia"
+      }
+    },
+    {
+      "title": "Lotico",
+      "type": "SparqlDatasource",
+      "description": "Lotico",
+      "settings": {
+        "endpoint": "http://www.lotico.com:3030/lotico/sparql",
+        "defaultGraph": "http://www.lotico.com:3030/lotico/sparql"
+      }
+    },
+    {
+      "title": "MORElab",
+      "type": "SparqlDatasource",
+      "description": "MORElab",
+      "settings": {
+        "endpoint": "http://apps.morelab.deusto.es/labman/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/morelab"
+      }
+    },
+    {
+      "title": "Muninn World War I",
+      "type": "SparqlDatasource",
+      "description": "Muninn World War I",
+      "settings": {
+        "endpoint": "http://rdf.muninn-project.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/muninn-world-war-i"
+      }
+    },
+    {
+      "title": "National Digital Data Archive of Hungary (partial)",
+      "type": "SparqlDatasource",
+      "description": "National Digital Data Archive of Hungary (partial)",
+      "settings": {
+        "endpoint": "http://lod.sztaki.hu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/sztaki-lod"
+      }
+    },
+    {
+      "title": "National Science Foundation (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "National Science Foundation (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://nsf.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-nsf"
+      }
+    },
+    {
+      "title": "Norwegian geo-divisions",
+      "type": "SparqlDatasource",
+      "description": "Norwegian geo-divisions",
+      "settings": {
+        "endpoint": "http://data.lenka.no/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/norwegian-geo-divisions"
+      }
+    },
+    {
+      "title": "Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://oai.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-oai"
+      }
+    },
+    {
+      "title": "Open Data Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Open Data Thesaurus",
+      "settings": {
+        "endpoint": "http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData",
+        "defaultGraph": "http://thedatahub.org/dataset/open-data-thesaurus"
+      }
+    },
+    {
+      "title": "Open Data from the Italian National Research Council",
+      "type": "SparqlDatasource",
+      "description": "Open Data from the Italian National Research Council",
+      "settings": {
+        "endpoint": "http://data.cnr.it/sparql-proxy/",
+        "defaultGraph": "http://thedatahub.org/dataset/data-cnr-it"
+      }
+    },
+    {
+      "title": "Open Data of Ecuador",
+      "type": "SparqlDatasource",
+      "description": "Open Data of Ecuador",
+      "settings": {
+        "endpoint": "http://data.utpl.edu.ec/ecuadorresearch/lod/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/opendataec"
+      }
+    },
+    {
+      "title": "OpenEI - Open Energy Info",
+      "type": "SparqlDatasource",
+      "description": "OpenEI - Open Energy Info",
+      "settings": {
+        "endpoint": "http://en.openei.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/open-energy-info-wiki"
+      }
+    },
+    {
+      "title": "OpenLink Software LOD Cache",
+      "type": "SparqlDatasource",
+      "description": "OpenLink Software LOD Cache",
+      "settings": {
+        "endpoint": "http://lod.openlinksw.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/openlink-lod-cache"
+      }
+    },
+    {
+      "title": "OpenMobileNetwork",
+      "type": "SparqlDatasource",
+      "description": "OpenMobileNetwork",
+      "settings": {
+        "endpoint": "http://sparql.openmobilenetwork.org",
+        "defaultGraph": "http://thedatahub.org/dataset/openmobilenetwork"
+      }
+    },
+    {
+      "title": "Ordnance Survey (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Ordnance Survey (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://os.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-os"
+      }
+    },
+    {
+      "title": "Organic Edunet Linked Open Data",
+      "type": "SparqlDatasource",
+      "description": "Organic Edunet Linked Open Data",
+      "settings": {
+        "endpoint": "http://data.organic-edunet.eu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/organic-edunet"
+      }
+    },
+    {
+      "title": "OxPoints (University of Oxford)",
+      "type": "SparqlDatasource",
+      "description": "OxPoints (University of Oxford)",
+      "settings": {
+        "endpoint": "https://data.ox.ac.uk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/oxpoints"
+      }
+    },
+    {
+      "title": "PreMOn (Predicate Model for Ontologies)",
+      "type": "SparqlDatasource",
+      "description": "PreMOn (Predicate Model for Ontologies)",
+      "settings": {
+        "endpoint": "http://premon.fbk.eu/sparql",
+        "defaultGraph": "https://premon.fbk.eu/download.html"
+      }
+    },
+    {
+      "title": "RISKS Digest (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "RISKS Digest (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://risks.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-risks"
+      }
+    },
+    {
+      "title": "ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://curriculum.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-curriculum"
+      }
+    },
+    {
+      "title": "ReSIST Project Wiki (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "ReSIST Project Wiki (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://wiki.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-wiki"
+      }
+    },
+    {
+      "title": "ReSIST Resilience Mechanisms (RKBExplorer.com)",
+      "type": "SparqlDatasource",
+      "description": "ReSIST Resilience Mechanisms (RKBExplorer.com)",
+      "settings": {
+        "endpoint": "http://resex.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-resex"
+      }
+    },
+    {
+      "title": "Reactome RDF",
+      "type": "SparqlDatasource",
+      "description": "Reactome RDF",
+      "settings": {
+        "endpoint": "https://www.ebi.ac.uk/rdf/services/reactome/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/reactome-rdf"
+      }
+    },
+    {
+      "title": "Repository for Linked Open Archival Data",
+      "type": "SparqlDatasource",
+      "description": "Repository for Linked Open Archival Data",
+      "settings": {
+        "endpoint": "http://lod.xdams.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/reload"
+      }
+    },
+    {
+      "title": "Shoah victims' names ",
+      "type": "SparqlDatasource",
+      "description": "Shoah victims' names ",
+      "settings": {
+        "endpoint": "http://lod.xdams.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/shoah-victims-names"
+      }
+    },
+    {
+      "title": "Research Assessment Exercise 2001 (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Research Assessment Exercise 2001 (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://rae2001.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-rae2001"
+      }
+    },
+    {
+      "title": "Resilient Computing Courseware (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Resilient Computing Courseware (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://courseware.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-courseware"
+      }
+    },
+    {
+      "title": "Rijksmuseum Collection Data",
+      "type": "SparqlDatasource",
+      "description": "Rijksmuseum Collection Data",
+      "settings": {
+        "endpoint": "http://rijksmuseum.dydra.com/lizzyjongma/rijksmuseum-collection/sparql",
+        "defaultGraph": "http://rijksmuseum.sealinc.eculture.labs.vu.nl/rdf/201509-rma-edm-collection.ttl.gz"
+      }
+    },
+    {
+      "title": "Rijksmuseum Collection Data",
+      "type": "SparqlDatasource",
+      "description": "Rijksmuseum Collection Data",
+      "settings": {
+        "endpoint": "http://rijksmuseum.sealinc.eculture.labs.vu.nl/sparql/",
+        "defaultGraph": "http://rijksmuseum.sealinc.eculture.labs.vu.nl/api/export_graph?graph=http%3A%2F%2Fpurl.org%2Fcollections%2Fnl%2Frma%2Frma-edm-collection.ttl&mimetype=default&format=turtle"
+      }
+    },
+    {
+      "title": "Répertoire International des Sources Musicales - RISM ",
+      "type": "SparqlDatasource",
+      "description": "Répertoire International des Sources Musicales - RISM ",
+      "settings": {
+        "endpoint": "http://data.rism.info/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rism"
+      }
+    },
+    {
+      "title": "RISM Authority data",
+      "type": "SparqlDatasource",
+      "description": "RISM Authority data",
+      "settings": {
+        "endpoint": "http://data.rism.info/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rism-authorities"
+      }
+    },
+    {
+      "title": "SADI Semantic Web Services framework registry",
+      "type": "SparqlDatasource",
+      "description": "SADI Semantic Web Services framework registry",
+      "settings": {
+        "endpoint": "http://biordf.net/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/sadi-semantic-web-services-framework-registry"
+      }
+    },
+    {
+      "title": "STW Thesaurus for Economics",
+      "type": "SparqlDatasource",
+      "description": "STW Thesaurus for Economics",
+      "settings": {
+        "endpoint": "http://zbw.eu/beta/sparql/stw/query",
+        "defaultGraph": "http://thedatahub.org/dataset/stw-thesaurus-for-economics"
+      }
+    },
+    {
+      "title": "School of Electronics and Computer Science, University of Southampton (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "School of Electronics and Computer Science, University of Southampton (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://southampton.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-southampton"
+      }
+    },
+    {
+      "title": "Serendipity",
+      "type": "SparqlDatasource",
+      "description": "Serendipity",
+      "settings": {
+        "endpoint": "http://serendipity.utpl.edu.ec/lod/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/serendipity"
+      }
+    },
+    {
+      "title": "Social Semantic Web Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Social Semantic Web Thesaurus",
+      "settings": {
+        "endpoint": "http://vocabulary.semantic-web.at/PoolParty/sparql/semweb",
+        "defaultGraph": "http://thedatahub.org/dataset/socialsemweb-thesaurus"
+      }
+    },
+    {
+      "title": "Spanish Linguistic Datasets",
+      "type": "SparqlDatasource",
+      "description": "Spanish Linguistic Datasets",
+      "settings": {
+        "endpoint": "http://linguistic.linkeddata.es/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/spanish-linguistic-datasets"
+      }
+    },
+    {
+      "title": "Street level crime reports for England and Wales",
+      "type": "SparqlDatasource",
+      "description": "Street level crime reports for England and Wales",
+      "settings": {
+        "endpoint": "http://crime.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-crime"
+      }
+    },
+    {
+      "title": "TED Talks",
+      "type": "SparqlDatasource",
+      "description": "TED Talks",
+      "settings": {
+        "endpoint": "http://data.linkededucation.org/request/ted/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/ted-talks"
+      }
+    },
+    {
+      "title": "Technische Universität Darmstadt (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Technische Universität Darmstadt (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://darmstadt.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-darmstadt"
+      }
+    },
+    {
+      "title": "Terminesp Linked Data",
+      "type": "SparqlDatasource",
+      "description": "Terminesp Linked Data",
+      "settings": {
+        "endpoint": "http://linguistic.linkeddata.es/terminesp/sparql-editor",
+        "defaultGraph": "http://thedatahub.org/dataset/terminesp"
+      }
+    },
+    {
+      "title": "Test Site, LOD Lab 317",
+      "type": "SparqlDatasource",
+      "description": "Test Site, LOD Lab 317",
+      "settings": {
+        "endpoint": "http://sparql.odw.tw",
+        "defaultGraph": "http://data.odw.tw/record/d3108593.ttl"
+      }
+    },
+    {
+      "title": "ThIST",
+      "type": "SparqlDatasource",
+      "description": "ThIST",
+      "settings": {
+        "endpoint": "http://linkeddata.ge.imati.cnr.it:8890/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/thist"
+      }
+    },
+    {
+      "title": "EARTh",
+      "type": "SparqlDatasource",
+      "description": "EARTh",
+      "settings": {
+        "endpoint": "http://linkeddata.ge.imati.cnr.it:8890/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/environmental-applications-reference-thesaurus"
+      }
+    },
+    {
+      "title": "The CIARD RING",
+      "type": "SparqlDatasource",
+      "description": "The CIARD RING",
+      "settings": {
+        "endpoint": "http://ring.ciard.net/sparql1",
+        "defaultGraph": "http://thedatahub.org/dataset/the-ciard-ring"
+      }
+    },
+    {
+      "title": "The Getty Thesaurus of Geographic Names",
+      "type": "SparqlDatasource",
+      "description": "The Getty Thesaurus of Geographic Names",
+      "settings": {
+        "endpoint": "http://vocab.getty.edu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/getty-tgn"
+      }
+    },
+    {
+      "title": "Art & Architecture Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "Art & Architecture Thesaurus",
+      "settings": {
+        "endpoint": "http://vocab.getty.edu/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/getty-aat"
+      }
+    },
+    {
+      "title": "Thesaurus BNCF",
+      "type": "SparqlDatasource",
+      "description": "Thesaurus BNCF",
+      "settings": {
+        "endpoint": "http://digitale.bncf.firenze.sbn.it/openrdf-workbench/repositories/NS/query",
+        "defaultGraph": "http://thedatahub.org/dataset/thesaurus-bncf"
+      }
+    },
+    {
+      "title": "UK JISC (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "UK JISC (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://jisc.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-jisc"
+      }
+    },
+    {
+      "title": "UN/LOCODE (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "UN/LOCODE (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://unlocode.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-unlocode"
+      }
+    },
+    {
+      "title": "UNESCO Thesaurus",
+      "type": "SparqlDatasource",
+      "description": "UNESCO Thesaurus",
+      "settings": {
+        "endpoint": "http://skos.um.es/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/unescothes"
+      }
+    },
+    {
+      "title": "URIBurner",
+      "type": "SparqlDatasource",
+      "description": "URIBurner",
+      "settings": {
+        "endpoint": "http://linkeddata.uriburner.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/uriburner"
+      }
+    },
+    {
+      "title": "UniProt citations",
+      "type": "SparqlDatasource",
+      "description": "UniProt citations",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprot-citations"
+      }
+    },
+    {
+      "title": "UniProt UniRef",
+      "type": "SparqlDatasource",
+      "description": "UniProt UniRef",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniref"
+      }
+    },
+    {
+      "title": "UniProt UniPathway",
+      "type": "SparqlDatasource",
+      "description": "UniProt UniPathway",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprot-unipathway"
+      }
+    },
+    {
+      "title": "UniProtKB",
+      "type": "SparqlDatasource",
+      "description": "UniProtKB",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprotkb"
+      }
+    },
+    {
+      "title": "UniProt",
+      "type": "SparqlDatasource",
+      "description": "UniProt",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprot"
+      }
+    },
+    {
+      "title": "UniProtKB Taxonomy",
+      "type": "SparqlDatasource",
+      "description": "UniProtKB Taxonomy",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprot-taxonomy"
+      }
+    },
+    {
+      "title": "UniProt UniParc",
+      "type": "SparqlDatasource",
+      "description": "UniProt UniParc",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprot-uniparc"
+      }
+    },
+    {
+      "title": "UniProt databases",
+      "type": "SparqlDatasource",
+      "description": "UniProt databases",
+      "settings": {
+        "endpoint": "http://beta.sparql.uniprot.org",
+        "defaultGraph": "http://thedatahub.org/dataset/uniprot-databases"
+      }
+    },
+    {
+      "title": "Universidad Técnica Particular de Loja - Linked Open Data",
+      "type": "SparqlDatasource",
+      "description": "Universidad Técnica Particular de Loja - Linked Open Data",
+      "settings": {
+        "endpoint": "http://data.utpl.edu.ec/utpl/lod/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/utpl-lod"
+      }
+    },
+    {
+      "title": "University of Newcastle upon Tyne (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "University of Newcastle upon Tyne (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://newcastle.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-newcastle"
+      }
+    },
+    {
+      "title": "Università degli studi di Roma \"La Sapienza\" (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Università degli studi di Roma \"La Sapienza\" (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://roma.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-roma"
+      }
+    },
+    {
+      "title": "Università di Pisa (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Università di Pisa (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://pisa.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-pisa"
+      }
+    },
+    {
+      "title": "Universität Ulm (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Universität Ulm (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://ulm.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-ulm"
+      }
+    },
+    {
+      "title": "Université Paul Sabatier - Toulouse 3 (RKB Explorer)",
+      "type": "SparqlDatasource",
+      "description": "Université Paul Sabatier - Toulouse 3 (RKB Explorer)",
+      "settings": {
+        "endpoint": "http://irit.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-irit"
+      }
+    },
+    {
+      "title": "Verrijkt Koninkrijk",
+      "type": "SparqlDatasource",
+      "description": "Verrijkt Koninkrijk",
+      "settings": {
+        "endpoint": "http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/verrijktkoninkrijk"
+      }
+    },
+    {
+      "title": "Vytautas Magnus University, Kaunas (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Vytautas Magnus University, Kaunas (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://kaunas.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-kaunas"
+      }
+    },
+    {
+      "title": "Web Science Conference (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "Web Science Conference (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://webscience.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-webscience"
+      }
+    },
+    {
+      "title": "WikiPathways",
+      "type": "SparqlDatasource",
+      "description": "WikiPathways",
+      "settings": {
+        "endpoint": "http://sparql.wikipathways.org/",
+        "defaultGraph": "http://thedatahub.org/dataset/wikipathways"
+      }
+    },
+    {
+      "title": "Wings workflow provenance dataset",
+      "type": "SparqlDatasource",
+      "description": "Wings workflow provenance dataset",
+      "settings": {
+        "endpoint": "http://www.opmw.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/wings-workflow-provenance-dataset"
+      }
+    },
+    {
+      "title": "WordNet (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "WordNet (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://wordnet.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-wordnet"
+      }
+    },
+    {
+      "title": "World War 1 as Linked Open Data",
+      "type": "SparqlDatasource",
+      "description": "World War 1 as Linked Open Data",
+      "settings": {
+        "endpoint": "http://ldf.fi/ww1lod/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/ww1lod"
+      }
+    },
+    {
+      "title": "aksw.org Research Group dataset",
+      "type": "SparqlDatasource",
+      "description": "aksw.org Research Group dataset",
+      "settings": {
+        "endpoint": "http://aksw.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/aksworg"
+      }
+    },
+    {
+      "title": "crm",
+      "type": "SparqlDatasource",
+      "description": "crm",
+      "settings": {
+        "endpoint": "http://crm.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-crm"
+      }
+    },
+    {
+      "title": "data-hnm-hu",
+      "type": "SparqlDatasource",
+      "description": "data-hnm-hu",
+      "settings": {
+        "endpoint": "http://data.hnm.hu/sparql",
+        "defaultGraph": "http://data.hnm.hu/sparql"
+      }
+    },
+    {
+      "title": "data-szepmuveszeti-hu",
+      "type": "SparqlDatasource",
+      "description": "data-szepmuveszeti-hu",
+      "settings": {
+        "endpoint": "http://data.szepmuveszeti.hu/sparql",
+        "defaultGraph": "http://data.szepmuveszeti.hu/sparql"
+      }
+    },
+    {
+      "title": "data.open.ac.uk, Linked Data from the Open University",
+      "type": "SparqlDatasource",
+      "description": "data.open.ac.uk, Linked Data from the Open University",
+      "settings": {
+        "endpoint": "http://data.open.ac.uk/query",
+        "defaultGraph": "http://thedatahub.org/dataset/data-open-ac-uk"
+      }
+    },
+    {
+      "title": "data.southampton.ac.uk with SPARQL endpoint",
+      "type": "SparqlDatasource",
+      "description": "data.southampton.ac.uk with SPARQL endpoint",
+      "settings": {
+        "endpoint": "http://sparql.data.southampton.ac.uk/",
+        "defaultGraph": "http://thedatahub.org/dataset/data-southampton-ac-uk"
+      }
+    },
+    {
+      "title": "Apps using our data (University of Southampton)",
+      "type": "SparqlDatasource",
+      "description": "Apps using our data (University of Southampton)",
+      "settings": {
+        "endpoint": "http://sparql.data.southampton.ac.uk/",
+        "defaultGraph": "http://thedatahub.org/dataset/southampton-ac-uk-apps"
+      }
+    },
+    {
+      "title": "dbnary",
+      "type": "SparqlDatasource",
+      "description": "dbnary",
+      "settings": {
+        "endpoint": "http://kaiko.getalp.org/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/dbnary"
+      }
+    },
+    {
+      "title": "demografiaataun",
+      "type": "SparqlDatasource",
+      "description": "demografiaataun",
+      "settings": {
+        "endpoint": "http://lod.eurohelp.es/engimu/query/",
+        "defaultGraph": "http://lod.eurohelp.es/engimu/query/"
+      }
+    },
+    {
+      "title": "digitaleconomy",
+      "type": "SparqlDatasource",
+      "description": "digitaleconomy",
+      "settings": {
+        "endpoint": "http://digitaleconomy.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-digitaleconomy"
+      }
+    },
+    {
+      "title": "dotAC (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "dotAC (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://dotac.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-dotac"
+      }
+    },
+    {
+      "title": "ePrints Harvest (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "ePrints Harvest (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://foreign.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/eprints-harvest-rkbexplorer"
+      }
+    },
+    {
+      "title": "ePrints3 Institutional Archive Collection (RKBExplorer)",
+      "type": "SparqlDatasource",
+      "description": "ePrints3 Institutional Archive Collection (RKBExplorer)",
+      "settings": {
+        "endpoint": "http://eprints.rkbexplorer.com/sparql/",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-eprints"
+      }
+    },
+    {
+      "title": "eagle-i @ Clark Atlanta University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Clark Atlanta University",
+      "settings": {
+        "endpoint": "http://cau.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-cau"
+      }
+    },
+    {
+      "title": "eagle-i @ Dartmouth College",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Dartmouth College",
+      "settings": {
+        "endpoint": "http://dartmouth.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-dartmouth"
+      }
+    },
+    {
+      "title": "eagle-i @ Florida Agricultural and Mechanical University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Florida Agricultural and Mechanical University",
+      "settings": {
+        "endpoint": "http://famu.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-famu"
+      }
+    },
+    {
+      "title": "eagle-i @ Harvard University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Harvard University",
+      "settings": {
+        "endpoint": "http://harvard.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-harvard"
+      }
+    },
+    {
+      "title": "eagle-i @ Howard University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Howard University",
+      "settings": {
+        "endpoint": "http://howard.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-howard"
+      }
+    },
+    {
+      "title": "eagle-i @ Hunter College",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Hunter College",
+      "settings": {
+        "endpoint": "http://hunter-cuny.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-hunter-cuny"
+      }
+    },
+    {
+      "title": "eagle-i @ Jackson State University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Jackson State University",
+      "settings": {
+        "endpoint": "http://jsu.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-jsu"
+      }
+    },
+    {
+      "title": "eagle-i @ Meharry Medical College",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Meharry Medical College",
+      "settings": {
+        "endpoint": "http://meharry.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-meharry"
+      }
+    },
+    {
+      "title": "eagle-i @ Morehouse School of Medicine",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Morehouse School of Medicine",
+      "settings": {
+        "endpoint": "http://msm.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-msm"
+      }
+    },
+    {
+      "title": "eagle-i @ Oregon Health and Science University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Oregon Health and Science University",
+      "settings": {
+        "endpoint": "http://ohsu.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-ohsu"
+      }
+    },
+    {
+      "title": "eagle-i @ Texas Southern University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Texas Southern University",
+      "settings": {
+        "endpoint": "http://tsu.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-tsu"
+      }
+    },
+    {
+      "title": "eagle-i @ The City College of New York",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ The City College of New York",
+      "settings": {
+        "endpoint": "http://ccny-cuny.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-ccny-cuny"
+      }
+    },
+    {
+      "title": "eagle-i @ Tuskegee University",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Tuskegee University",
+      "settings": {
+        "endpoint": "http://tuskegee.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-tuskegee"
+      }
+    },
+    {
+      "title": "eagle-i @ Universidad Central del Caribe ",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Universidad Central del Caribe ",
+      "settings": {
+        "endpoint": "http://uccaribe.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-uccaribe"
+      }
+    },
+    {
+      "title": "eagle-i @ University of Alaska Fairbanks",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ University of Alaska Fairbanks",
+      "settings": {
+        "endpoint": "http://alaska.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-alaska"
+      }
+    },
+    {
+      "title": "eagle-i @ University of Hawai'i at Mānoa",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ University of Hawai'i at Mānoa",
+      "settings": {
+        "endpoint": "http://hawaii.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-hawaii"
+      }
+    },
+    {
+      "title": "eagle-i @ University of Texas at El Paso",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ University of Texas at El Paso",
+      "settings": {
+        "endpoint": "http://utep.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-utep"
+      }
+    },
+    {
+      "title": "eagle-i @ Xavier University of Louisiana",
+      "type": "SparqlDatasource",
+      "description": "eagle-i @ Xavier University of Louisiana",
+      "settings": {
+        "endpoint": "http://xula.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-xula"
+      }
+    },
+    {
+      "title": "eagle-i@ University of Puerto Rico - Medical Sciences Campus ",
+      "type": "SparqlDatasource",
+      "description": "eagle-i@ University of Puerto Rico - Medical Sciences Campus ",
+      "settings": {
+        "endpoint": "http://upr.eagle-i.net/sparqler/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/eagle-i-upr"
+      }
+    },
+    {
+      "title": "education.data.gov.uk",
+      "type": "SparqlDatasource",
+      "description": "education.data.gov.uk",
+      "settings": {
+        "endpoint": "http://services.data.gov.uk/education/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/education-data-gov-uk"
+      }
+    },
+    {
+      "title": "epsrc",
+      "type": "SparqlDatasource",
+      "description": "epsrc",
+      "settings": {
+        "endpoint": "http://epsrc.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-epsrc"
+      }
+    },
+    {
+      "title": "iServe: Linked Services Registry",
+      "type": "SparqlDatasource",
+      "description": "iServe: Linked Services Registry",
+      "settings": {
+        "endpoint": "http://iserve.kmi.open.ac.uk/iserve/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/iserve"
+      }
+    },
+    {
+      "title": "linkedarc.net archaeological datasets",
+      "type": "SparqlDatasource",
+      "description": "linkedarc.net archaeological datasets",
+      "settings": {
+        "endpoint": "http://linkedarc.net/sparql",
+        "defaultGraph": "http://linkedarc.net/void.ttl"
+      }
+    },
+    {
+      "title": "reference.data.gov.uk",
+      "type": "SparqlDatasource",
+      "description": "reference.data.gov.uk",
+      "settings": {
+        "endpoint": "http://services.data.gov.uk/reference/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/reference-data-gov-uk"
+      }
+    },
+    {
+      "title": "rkb-explorer-foreign",
+      "type": "SparqlDatasource",
+      "description": "rkb-explorer-foreign",
+      "settings": {
+        "endpoint": "http://foreign.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-foreign"
+      }
+    },
+    {
+      "title": "roni",
+      "type": "SparqlDatasource",
+      "description": "roni",
+      "settings": {
+        "endpoint": "http://roni.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-roni"
+      }
+    },
+    {
+      "title": "statistics.data.gov.uk",
+      "type": "SparqlDatasource",
+      "description": "statistics.data.gov.uk",
+      "settings": {
+        "endpoint": "http://services.data.gov.uk/statistics/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/statistics-data-gov-uk"
+      }
+    },
+    {
+      "title": "transport.data.gov.uk",
+      "type": "SparqlDatasource",
+      "description": "transport.data.gov.uk",
+      "settings": {
+        "endpoint": "http://services.data.gov.uk/transport/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/transport-data-gov-uk"
+      }
+    },
+    {
+      "title": "webconf",
+      "type": "SparqlDatasource",
+      "description": "webconf",
+      "settings": {
+        "endpoint": "http://webconf.rkbexplorer.com/sparql",
+        "defaultGraph": "http://thedatahub.org/dataset/rkb-explorer-webconf"
+      }
+    }
+  ],
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dc": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dbpedia-owl": "http://dbpedia.org/ontology/",
+    "dbpprop": "http://dbpedia.org/property/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "void": "http://rdfs.org/ns/void#"
+  }
+}
