@@ -1,5 +1,6 @@
+## Linked Data Fragments Server assets
 
+### Config
 
-builds a config from the endpoints of:
-
-http://sparqles.ai.wu.ac.at/api/availability
+A [Linked Data Fragments Server](https://github.com/LinkedDataFragments/Server.js/) [configuration file](./config.json)
+built from the now defunct: http://sparqles.ai.wu.ac.at/api/availability
